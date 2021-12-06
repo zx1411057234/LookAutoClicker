@@ -25,7 +25,7 @@
     <string name="dialog_event_list_title">事件列表</string>
     <string name="dialog_event_list_add">新建</string>
     <string name="dialog_event_list_reorder">重新排序</string>
-    <string name="dialog_event_list_no_events">无事件。\n单击\'新建\' 创建一个。 </string>
+    <string name="dialog_event_list_no_events">无事件，\n单击\'新建\' 创建一个。 </string>
 
     <string name="dialog_event_add_title">添加新事件</string>
     <string name="dialog_event_add_create">创建</string>
