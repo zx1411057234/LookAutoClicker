@@ -15,11 +15,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program; If not, see <http://www.gnu.org/licenses/>.
 -->
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <string name="activity_scenario_title">Scenarios</string>
     <string name="no_scenarios">"Aucun scenario.\nAppuyez sur le button \'+\' pour en créer un."</string>
-    <plurals name="scenario_sub_text">
+    <plurals name="scenario_sub_text" tools:ignore="MissingQuantity">
         <item quantity="one">%d évènement</item>
         <item quantity="other">%d évènements</item>
     </plurals>

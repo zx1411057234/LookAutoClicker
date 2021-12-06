@@ -57,7 +57,7 @@ class ScenarioActivity : AppCompatActivity(), ScenarioListFragment.OnScenarioCli
 
         screenCaptureLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {
             if (it.resultCode != RESULT_OK) {
-                Toast.makeText(this, "User denied screen sharing permission", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "用户拒绝屏幕共享权限", Toast.LENGTH_SHORT).show()
             } else {
                 scenarioViewModel.loadScenario(it.resultCode, it.data!!, requestedScenario!!)
                 finish()
