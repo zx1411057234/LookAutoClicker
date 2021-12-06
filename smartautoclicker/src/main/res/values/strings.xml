@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name" translatable="false">自动识别点击</string>
     <string name="activity_scenario_title">场景</string>
-    <string name="no_scenarios">没有场景。\n点击\'+\'按钮创建一个。</string>
+    <string name="no_scenarios">没有场景，\n点击\'+\'按钮创建一个。</string>
 
 
     <string name="dialog_permissions_title">需要权限</string>
